@@ -18,6 +18,7 @@ declare const require: {
 getTestBed().initTestEnvironment(
   BrowserDynamicTestingModule,
   platformBrowserDynamicTesting(),
+  schemas: [NO_ERRORS_SCHEMA],
 );
 
 // Then we find all the tests.
